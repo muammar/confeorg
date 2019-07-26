@@ -1,60 +1,69 @@
 ---
-title: Page with Tabs
-subtitle: Demo page with tabs
+title: Page with menubar
+subtitle: Demo page with a menubar
 layout: page
 show_sidebar: false
-tabs: example_tabs
 menubar: example_menu
 ---
 
-## Displaying tabs
+This is another sample page showing how a page can look with a menubar. 
 
-The tabs gets its content from a data file in your site's `_data` directory. Simply set the name of your data file in the page's menubar setting in the frontmatter. 
+## Displaying a menubar
+
+The menubar gets its content from a data file in your site's `_data` directory. Simply set the name of your data file in the page's menubar setting in the frontmatter. 
 
 ```yml
-title: Page with tabs
-subtitle: Demo page with tabs
+title: Page with menubar
+subtitle: Demo page with a menubar
 layout: page
 show_sidebar: false
 menubar: example_menu
-tabs: example_tabs
 ```
 
-Tabs can be used in conjunction with menubar and/or sidebar if you wish. 
+You will probably want to disable the show_sidebar otherwise there will be little room for the page's content. 
 
-## Creating a tabs data file
+## Creating a menubar data file
 
 Create a data file in the _data directory and use the following format (if using yml)
 
 ```yml
-alignment: is-left
-style: is-boxed
-size: is-large
-items:
-  - name: Tabs
-    link: /page-4/
-    icon: fa-smile-wink
-  - name: Sidebar
-    link: /page-1/
-    icon: fa-square
-  - name: No Sidebar
-    link: /page-2/
-    icon: fa-ellipsis-v
-  - name: Menubar
-    link: /page-3/
-    icon: fa-bars
+- label: Example Menu
+  items:
+    - name: Home
+      link: /
+    - name: Pages
+      link: #
+      items:
+        - name: Page With Sidebar 
+          link: /page-1/
+        - name: Page Without Sidebar
+          link: /page-2/
+        - name: Page With Menubar
+          link: /page-3/
+    - name: Blog
+      link: /blog/
 ```
 
-## Settings
+### Multiple menus
 
-You can control the alignment, style and size of the tabs by using the relevant [Bulma tabs classes](https://bulma.io/documentation/components/tabs/). 
+You may make multiple menus in the same file, separated by the label
 
-## Active Tab Highlighting
-
-It will automatically mark the active tab based on the current page.
-
-## Icons
-
-You can add icons to your tab by passing in the [Font Awesome icon class](https://fontawesome.com/icons?d=gallery).
-
-If you don't wish to show icons then simply omit the option from your yaml file.
+```yml
+- label: Menu Label
+  items:
+    - name: Example item
+      link: /example-item/
+- label: Second Menu Label
+  items:
+    - name: Parent Item
+      link: /parent-item/
+      items:
+        - name: Sublink 
+          link: /sublink/
+        - name: Sublink 2
+          link: /sublink2/
+- label: Third Menu Label
+  items:
+    - name: Another example item
+      link: /another-example-item/
+```
