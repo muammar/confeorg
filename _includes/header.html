@@ -1,4 +1,3 @@
-
 <nav class="navbar is-primary">
     <div class="container">
         <div class="navbar-brand">
@@ -18,13 +17,11 @@
                 {% for item in site.data.navigation %}
                     {% if item.dropdown %}
                     <div class="navbar-item has-dropdown is-hoverable">
-                        <a href="{{ item.link | prepend: site.baseurl }}" class="navbar-link {% if item.link == page.url %}is-active{% endif %}">Quiénes Somos</a>
+                        <a href="{{ item.link | prepend: site.baseurl }}" class="navbar-link {% if item.link == page.url %}is-active{% endif %}">{{ item.name }}</a>
                         <div class="navbar-dropdown">
                             {% for subitem in item.dropdown %}
-                            <a href="{{ subitem.link | prepend: site.baseurl }}" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">mardita sea!</a>
-                            <a href="{{ subitem.link | prepend: site.baseurl }}" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">mardita sea!</a>
-
-                            {% endfor %}    
+                            <a href="{{ subitem.link | prepend: site.baseurl }}" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">{{ subitem.name }}</a>
+                            {% endfor %}
                         </div>
                     </div>
                     {% else %}

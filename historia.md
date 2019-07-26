@@ -1,6 +1,6 @@
 ---
 title: Historia
-subtitle: 
+subtitle:
 layout: page
 show_sidebar: true
 ---
