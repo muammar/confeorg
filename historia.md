@@ -6,5 +6,5 @@ show_sidebar: true
 ---
 
 
-lorem ipsum sit amet ...
+La empresa desde sus comienzos ...
 

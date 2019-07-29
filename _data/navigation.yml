@@ -6,11 +6,13 @@
     - name: Misión
       link: /mision
     - name: Visión
-      link: /page-3/
+      link: /vision
     - name: Objetivo
-      link: /page-4/
+      link: /objetivo
     - name: Equipo Ejecutivo
-      link: /page-5/
+      link: /equipo-ejecutivo
+- name: Afíliese
+  link: /afiliese
 - name: Publicaciones
   link: /publicaciones
 - name: Contacto
