@@ -22,4 +22,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Carousel
+    $('.flexslider').flexslider({
+    animation: "slide"
+    });
 });
+
