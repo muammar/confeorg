@@ -52,7 +52,7 @@ defaults:
     values:
       author: "C.S. Rhymes"
       layout: post
-      image: https://via.placeholder.com/1200x800
+      image: https://via.placeholder.com/1280x800    
       show_sidebar: false
 
 markdown: kramdown
@@ -66,3 +66,8 @@ collections:
     layout: product
     image: https://via.placeholder.com/800x600
     show_sidebar: false
+        
+  
+
+
+
