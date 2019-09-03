@@ -1,11 +1,14 @@
 ---
 title: Equipo Ejecutivo
-subtitle: 
+subtitle:
 layout: page
 show_sidebar: true
 ---
 
 # EVERTH BUSTAMANTE GARCÍA PRESIDENTE DE LA CONFEDERACIÓN
+
+
+<img align="right" src="https://pacifista.tv/wp-content/uploads/2018/09/I-I1f2dw.jpg">
 
 Nació en el Municipio de Zipáquirá, Cundinamarca, es doctor en Derecho y Ciencias Políticas de la Universidad Externado de Colombia, Magíster en Planificación y Administración del Desarrollo Regional de la Universidad Externado de Colombia, Magíster en Planificación y Administración del Desarrollo Regional de la Universidad de Los Andes, y con estudios en Gobierno Municipal, Gobierno Gerencia y Asuntos Públicos de la Universidad Externado y La Universidad de Columbia.
 
