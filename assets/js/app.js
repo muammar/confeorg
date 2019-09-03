@@ -24,7 +24,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Carousel
     $('.flexslider').flexslider({
-<<<<<<< HEAD
     animation: "slide",
     controlNav: false,
     animationLoop: false,
@@ -47,10 +46,3 @@ document.addEventListener('DOMContentLoaded', () => {
 function newFunction() {
   return true;
 }
-
-=======
-    animation: "slide"
-    });
-});
-
->>>>>>> cfedb04c77d55b5a11a0ca02d88c14f7c7300603
