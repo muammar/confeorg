@@ -2,6 +2,7 @@
 title: CONFEORG
 subtitle: Confederación Nacional de Organismos de Apoyo al Tránsito
 layout: page
+show_sidebar: false
 ---
 
 # Acerca de Nosotros

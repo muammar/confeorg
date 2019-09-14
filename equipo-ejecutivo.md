@@ -2,7 +2,7 @@
 title: Equipo Ejecutivo
 subtitle:
 layout: page
-show_sidebar: true
+show_sidebar: false
 ---
 
 # EVERTH BUSTAMANTE GARCÍA PRESIDENTE DE LA CONFEDERACIÓN

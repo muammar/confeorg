@@ -2,7 +2,7 @@
 title: Visión
 subtitle:  
 layout: page
-show_sidebar: true
+show_sidebar: false
 ---
 
 La empresa ...
