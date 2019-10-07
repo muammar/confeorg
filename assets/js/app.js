@@ -22,27 +22,29 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Carousel
+  //Carousel
+
     $('.flexslider').flexslider({
     animation: "slide",
     controlNav: false,
     animationLoop: false,
     slideshow: false,
-    itemWidth: 320,
-    itemMargin: 5,
+    itemWidth: 600,
+    itemMargin: 500,
     asNavFor: '#slider'
     });
 
     $('#slider').flexslider({
-    animation: "slide",
-    controlNav: false,
-    itemWidht: ($(window).width()/3), // calculate slide widht based on window, divide by 3 to show 3
-    animationLoop: false,
-    slideshow: false,
-    sync: "#carousel"  
+      animation: "slide",
+      controlNav: false,
+      itemWidht: ($(window).width()/3), // calculate slide widht based on window, divide by 3 to show 3
+      animationLoop: false,
+      slideshow: false,
+      sync: "#carousel"  
+      });
     });
-});
 
 function newFunction() {
-  return true;
+  return true; 
 }
+

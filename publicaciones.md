@@ -5,8 +5,12 @@ layout: page
 show_sidebar: false
 ---
 
+<!-- Galería de Imágenes -->
+
+<h1 class="title">Galería de Imágenes</h1> 
 
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+
 <div class="pa-gallery-player-widget" style="width:100%; height:480px; display:none;"
   data-link="https://photos.app.goo.gl/9K7Pj8J85HqZke9b9"
   data-title="CONFEORG: Pereira 2019"
@@ -30,4 +34,22 @@ show_sidebar: false
 
 &nbsp; 
 
+<!-- Archivos de media -->
+
+<h1 class="title">Vídeos</h1> 
+
 <div style="text-align: center;"> <iframe width="560" height="315" src="https://www.youtube.com/embed/dN0lWU91JSA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<!-- Resoluciones -->
+
+<h2 class="title">Resoluciones</h2> 
+
+<a href="https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/INEC/IGUB/ley-769-de-2002.pdf" target="_blank">Ley 769 de 2002</a>
+
+<br>
+
+<a href="https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=51164" target="_blank">Resolución 12336 de 2012</a>
+
+<br>
+
+<a href="http://www.suin-juriscol.gov.co/viewDocument.asp?id=1298784" target="_blank">Decreto 1500 de 2009</a>

@@ -1,6 +1,6 @@
 ---
-title: CONFEORG
-subtitle: Confederación Nacional de Organismos de Apoyo al Tránsito
+title: <img src="images/Logo_empresa/logo.png" height="500" width="600"> 
+subtitle: 
 layout: page
 show_sidebar: false
 ---

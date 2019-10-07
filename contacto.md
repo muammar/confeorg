@@ -2,5 +2,5 @@
 title: Contacto
 subtitle:
 layout: page
-show_sidebar: true
+show_sidebar: false
 ---
