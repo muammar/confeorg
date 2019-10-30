@@ -26,11 +26,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     $('.flexslider').flexslider({
     animation: "slide",
-    controlNav: false,
-    animationLoop: false,
-    slideshow: false,
-    itemWidth: 600,
-    itemMargin: 500,
+    controlNav: true,
+    animationLoop: true,
+    slideshow: true,
+    itemWidth: 400,
+    itemMargin: 5,
     asNavFor: '#slider'
     });
 
@@ -47,4 +47,3 @@ document.addEventListener('DOMContentLoaded', () => {
 function newFunction() {
   return true; 
 }
-
